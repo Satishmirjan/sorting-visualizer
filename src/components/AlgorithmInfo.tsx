@@ -19,10 +19,6 @@ const AlgorithmInfo: React.FC = () => {
               Algorithm Details
             </h2>
           </div>
-          <div className="flex items-center space-x-2">
-            <span className="inline-block w-7 h-7 rounded-full bg-gradient-to-br from-pink-400 to-purple-500 border-2 border-white shadow-md"></span>
-            <span className="text-xs font-semibold bg-gradient-to-r from-pink-500 to-purple-500 text-white px-2 py-1 rounded-full shadow animate-pulse">Made by Satish</span>
-          </div>
         </div>
       </div>
       

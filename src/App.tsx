@@ -10,10 +10,7 @@ function App() {
         <div className="container mx-auto px-4 flex flex-col md:flex-row md:items-center md:justify-between">
           <div>
             <h1 className="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-pink-500 drop-shadow-lg">Sorting Algorithm Visualizer</h1>
-            <p className="text-gray-600 italic mt-1">Visualize and learn how sorting algorithms work — beautifully crafted by Satish</p>
-          </div>
-          <div className="mt-2 md:mt-0">
-            <span className="inline-block px-3 py-1 bg-gradient-to-r from-pink-500 to-purple-500 text-white rounded-full text-xs font-semibold shadow-md animate-pulse">Made by Satish</span>
+            <p className="text-gray-600 italic mt-1">Visualize and learn how sorting algorithms work</p>
           </div>
         </div>
       </header>

@@ -104,13 +104,6 @@ const SortingVisualizer: React.FC = () => {
               </div>
             );
           })}
-          {/* Satish's Visualizer watermark */}
-          <div className="absolute bottom-2 right-4 z-10 pointer-events-none select-none">
-            <span className="satish-badge flex items-center gap-1 shadow-lg">
-              <svg width="16" height="16" fill="none" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2l1.09 3.41L16 6l-2.45 1.79L14 11l-2-1.5L10 11l.45-3.21L8 6l2.91-.59L12 2z"/></svg>
-              Satish's Visualizer
-            </span>
-          </div>
         </div>
         
         {sortingSteps.length > 0 && currentStep < sortingSteps.length && (
